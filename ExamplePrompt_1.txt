@@ -1,0 +1,77 @@
+Scenario:
+
+You are assigned the task of creating a prompt to guide a Large Language Model (LLM) to generate a personalized 7-day meal plan. The meal plan should be tailored based on specific dietary preferences, nutritional goals, and constraints. The goal is to utilize the various prompt components such as instruction, input context, constraints, output specification, and examples to achieve highly personalized and structured results.
+
+Requirements:
+
+Instruction: Include a clear directive asking the model to create a customized 7-day meal plan, incorporating breakfast, lunch, and dinner.
+
+Input Context: Provide detailed background information about dietary preferences, nutritional goals, allergies, or restrictions.
+
+Constraints: Add specific requirements, such as calorie limits, budget considerations, cultural preferences, or cooking complexity.
+
+Output Specification: Specify how the meal plan should be presented, such as a tabular format or organized by days with meals listed clearly.
+
+Example: Provide one example of a structured daily meal plan to illustrate the desired output.
+
+Test the prompt to ensure it produces a meal plan suited to individual needs while adhering to constraints and preferences.
+
+Expected Output:
+
+A tailored 7-day meal plan that includes:
+
+Breakfast, lunch, and dinner for each day.
+Recipes or preparation ideas linked to each meal.
+Nutritional breakdown (optional) such as approximate calorie count or macros for each meal.
+Consistency in adhering to dietary needs, restrictions, and constraints.
+Outputs presented in the requested format (e.g., structured day-wise plan).
+Example Prompt:
+
+Instruction: "Generate a personalized 7-day meal plan based on the following preferences and constraints."
+
+Input Context:
+
+Dietary Preferences: Vegetarian.
+Nutritional Goals: High protein (70g/day) and low sugar (<30g/day).
+Allergies: No peanuts or shellfish.
+Cooking Complexity: Simple, quick recipes (max 30 minutes).
+Budget: $10 per meal per person.
+Constraints:
+
+Ensure calorie count does not exceed 2,000 per day overall.
+Include a mix of global cuisines (Indian, Italian, Mexican, etc.).
+Avoid repetitive meals; ensure variety across the week.
+Output Specification:
+"Provide the meal plan in a structured format with categories for the day, meal name, preparation method, and ingredients. Optionally include a brief nutritional summary for each meal."
+
+Example Output:
+
+Day 1
+
+Breakfast: Spinach and feta omelette with whole-grain toast.
+
+Preparation: Whisk egg with spinach and feta, cook in a pan, serve with toast.
+
+Ingredients: Eggs, spinach, feta cheese, whole-grain bread, olive oil.
+
+Nutritional Summary: Approx. 300 calories, 20g protein, 10g carbs.
+
+Lunch: Lentil soup with a side of quinoa salad.
+
+Preparation: Simmer lentils with tomatoes and spices, toss quinoa with vegetables and dressing.
+
+Ingredients: Lentils, tomatoes, cumin, quinoa, cucumber, olive oil, lemon juice.
+
+Nutritional Summary: Approx. 450 calories, 25g protein, 15g carbs.
+
+Dinner: Grilled tofu with stir-fried vegetables.
+
+Preparation: Marinate tofu, grill until crispy, serve with stir-fried vegetables.
+
+Ingredients: Tofu, soy sauce, zucchini, bell peppers, sesame oil.
+
+Nutritional Summary: Approx. 400 calories, 30g protein, 10g carbs.
+
+Day 2
+
+... (to be completed by the LLM)
