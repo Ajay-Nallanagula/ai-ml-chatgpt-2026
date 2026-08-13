@@ -88,8 +88,7 @@ Ask Claude to help refine your prompt. If you're not sure how to frame your rese
 ## Claude Code
 
 Coding Assistant behind the scenes
-Coding_Assistant_BTS.png
-<img src="../images/Coding_Assistant_BTS" alt="Coding_Assistant_BTS" width="500">
+<img src="../images/Coding_Assistant_BTS.png" alt="Coding_Assistant_BTS" width="500">
 
 - LLM model only understands text and respond in text, it cannot create files, run code, or access the internet. To enable these capabilities, we have a `coding assistant` that acts as an intermediary between the LLM and the external environment. The `coding assistant` receives instructions from the `LLM`, executes code, creates files, and retrieves information from the internet as needed to fulfill the user's request.
 - The `coding assistant` is designed to be secure and efficient, ensuring that it only executes code that is necessary for the task at hand and that it does so in a controlled environment to prevent any potential security risks. By using the `coding assistant`, Claude can perform a wide range of tasks that go beyond simple text generation, making it a powerful tool for developers and non-developers alike.
@@ -168,9 +167,10 @@ Claude Custom Commands:
   }
 }
 ```
-- Other tools that are been used inside your project 
-https://anthropic.skilljar.com/claude-code-in-action/312427 
+
+- Other tools that are been used inside your project
+  https://anthropic.skilljar.com/claude-code-in-action/312427
 
 ### Claude Code SDK
--  <img src="../images/claude_code_sdk.png" alt="claude_code_sdk" width="400">
 
+- <img src="../images/claude_code_sdk.png" alt="claude_code_sdk" width="400">

@@ -619,11 +619,11 @@ GUARDRAILS:
 ## Models
 
 ### Types of Models
-- `Pre Trained Models` are large language models that have been trained on vast amounts of data to understand and generate human-like text.  These models learn the patterns from the pre-training and apply them to specific models. They are designed to be versatile and can be fine-tuned for specific tasks or used as-is for a wide range of applications, such as chatbots, content generation, and language translation. Pre-training provides a good starting point, reducing the amount of data and computation required to train a new model from scratch.
+
+- `Pre Trained Models` are large language models that have been trained on vast amounts of data to understand and generate human-like text. These models learn the patterns from the pre-training and apply them to specific models. They are designed to be versatile and can be fine-tuned for specific tasks or used as-is for a wide range of applications, such as chatbots, content generation, and language translation. Pre-training provides a good starting point, reducing the amount of data and computation required to train a new model from scratch.
 
 - `Closed Vs Open Source Models` Open-source models are freely available for customization and collaboration, promoting transparency and flexibility, while closed-source models are proprietary, offering ease of use but limiting modification and transparency.
-https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/ 
+  https://hatchworks.com/blog/gen-ai/open-source-vs-closed-llms-guide/
 
 - `Self hosted AI Models` Self-hosted AI models are machine learning models that are deployed and run on your own infrastructure, rather than relying on a third-party service or cloud provider. This means you have complete control over the hardware, software, and data used to run the model, allowing for greater customization, security, and potentially lower long-term costs, depending on your specific needs and scale.
 
-### Choose Right Model

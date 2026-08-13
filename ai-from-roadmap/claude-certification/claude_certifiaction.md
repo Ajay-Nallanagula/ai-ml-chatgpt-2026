@@ -1,4 +1,6 @@
+Suggested by Midhuna an Vaibhav
 - https://claudecertificationguide.com/learn/1-agentic-architecture/1-1-agentic-loops
+
 - https://slava-kudzinau.github.io/cc-guide/#claude-code-complete-technical-guide-for-senior-developers
 - https://anthropic.skilljar.com/introduction-to-subagents
 
